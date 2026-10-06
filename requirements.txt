@@ -1,0 +1,57 @@
+# ============================================================
+# BrowserAutomation MCP Server - Python Dependencies
+# ============================================================
+#
+# Python version:
+#   Python 3.10+
+#
+# Install:
+#   pip install -r requirements.txt
+#
+# After installing Python packages, install the Playwright
+# browser if required:
+#   playwright install chromium
+#
+# ============================================================
+
+
+# ------------------------------------------------------------
+# MCP Server
+# ------------------------------------------------------------
+# Model Context Protocol server framework.
+# Used by:
+#
+#   from mcp.server.fastmcp import FastMCP
+#
+mcp>=1.0.0,<2.0.0
+
+
+# ------------------------------------------------------------
+# Data Validation
+# ------------------------------------------------------------
+# Used for defining structured tool responses such as:
+#
+#   class PageId(BaseModel):
+#       pageId: int
+#
+pydantic>=2.0.0,<3.0.0
+
+
+# ------------------------------------------------------------
+# Browser Automation
+# ------------------------------------------------------------
+# Async Playwright API used for:
+# - Launching Chrome/Chromium
+# - Opening pages
+# - Clicking elements
+# - Filling forms
+# - Keyboard events
+# - Scrolling
+# - Navigation
+# - Page inspection
+#
+# Used by:
+#
+#   from playwright.async_api import async_playwright
+#
+playwright>=1.50.0,<2.0.0

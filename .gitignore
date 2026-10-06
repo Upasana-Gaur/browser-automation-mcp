@@ -1,0 +1,294 @@
+# ============================================================
+# BrowserAutomation MCP Server
+# Git Ignore Configuration
+# ============================================================
+
+
+# ============================================================
+# PYTHON
+# ============================================================
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python compiled extensions
+*.so
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
+
+
+# ============================================================
+# VIRTUAL ENVIRONMENTS
+# ============================================================
+
+# Standard Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Virtualenv metadata
+pyvenv.cfg
+
+
+# ============================================================
+# ENVIRONMENT VARIABLES / SECRETS
+# ============================================================
+
+# Environment variable files
+.env
+.env.*
+!.env.example
+
+# Local secrets/configuration
+secrets.json
+credentials.json
+config.local.json
+
+
+# ============================================================
+# IDE / EDITOR FILES
+# ============================================================
+
+# Visual Studio Code
+.vscode/
+
+# IntelliJ / PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+
+# VS Code history
+.history/
+
+
+# ============================================================
+# OPERATING SYSTEM FILES
+# ============================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS directory metadata
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+
+# ============================================================
+# PLAYWRIGHT
+# ============================================================
+
+# Playwright test reports
+playwright-report/
+
+# Playwright test results
+test-results/
+
+# Playwright blob reports
+blob-report/
+
+# Playwright screenshots/videos/traces generated during tests
+playwright/.cache/
+
+# Local Playwright browser data
+.playwright/
+
+
+# ============================================================
+# BROWSER / AUTOMATION DATA
+# ============================================================
+
+# Browser profiles
+.browser/
+browser-data/
+browser-profile/
+chrome-profile/
+chromium-profile/
+
+# Chrome user data
+chrome-user-data/
+chromium-user-data/
+
+# Browser downloads
+downloads/
+
+# Browser screenshots
+screenshots/
+
+# Browser videos
+videos/
+
+# Browser traces
+traces/
+
+
+# ============================================================
+# MCP / LOCAL RUNTIME FILES
+# ============================================================
+
+# Runtime files
+*.pid
+*.lock
+
+# Local runtime state
+.runtime/
+.local/
+.tmp/
+
+# MCP generated/local data
+mcp-data/
+mcp-runtime/
+
+
+# ============================================================
+# LOG FILES
+# ============================================================
+
+*.log
+logs/
+log/
+
+
+# ============================================================
+# BUILD / PACKAGING
+# ============================================================
+
+# Build directories
+build/
+dist/
+
+# Python package metadata
+*.egg-info/
+.eggs/
+
+# Wheel files
+*.whl
+
+# Source distributions
+*.tar.gz
+
+
+# ============================================================
+# TESTING
+# ============================================================
+
+.pytest_cache/
+.tox/
+.nox/
+.coverage
+htmlcov/
+
+# Hypothesis
+.hypothesis/
+
+
+# ============================================================
+# TYPE CHECKING
+# ============================================================
+
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+
+# ============================================================
+# LINTING / FORMATTERS
+# ============================================================
+
+.ruff_cache/
+.black_cache/
+
+
+# ============================================================
+# JUPYTER
+# ============================================================
+
+.ipynb_checkpoints/
+
+
+# ============================================================
+# TEMPORARY FILES
+# ============================================================
+
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Temporary editor files
+*.orig
+*.rej
+
+
+# ============================================================
+# GENERATED DATA
+# ============================================================
+
+data/
+output/
+outputs/
+artifacts/
+
+# Generated JSON/CSV files
+# Uncomment these if your application generates them locally:
+# *.json
+# *.csv
+
+
+# ============================================================
+# LOCAL DATABASES
+# ============================================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+
+# ============================================================
+# OS / DEBUG DUMPS
+# ============================================================
+
+*.dump
+*.core
+core.*
+
+
+# ============================================================
+# OPTIONAL: LOCAL CONFIGURATION
+# ============================================================
+
+# Ignore machine-specific configuration
+config.local.*
+settings.local.*
